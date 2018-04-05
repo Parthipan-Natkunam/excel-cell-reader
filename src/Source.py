@@ -13,7 +13,7 @@ sumEntries = [None]*8 #list to hold the summed values in float type
 master = Tk()
 master.title("Excel Reader")
 master.configure(background="#565f6f")
-master.wm_iconbitmap("favicon.ico")
+#master.wm_iconbitmap("favicon.ico")
 master.resizable(0,0)
 startButton = Button(master, text="START",bg="green",fg="white",width=20,font=("Helvetica",10))
 startButton.grid(column=1, row=1)
